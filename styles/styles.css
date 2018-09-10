@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+nav a {
+    color: #00A79D;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #444;
+}
+*/
+
+header {
+    background: #fff;
+    max-width: 1480px;
+    margin: 0px 20px 0px 20px;
+    position: relative;
+    z-index: 99;
+}
+
+#logo {
+    float: left;
+    display: block;
+    margin-left: 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: #00A79D;
+    text-align: center;
+    padding: 16px;
+}
+
+nav li a:hover {
+    color: #444;
+}
+
+.current {
+    color: #FFC517;
+    background: #00A79D;
+}
+
+
+.splash-container {
+
+    background: url(../images/duomo.jpg) no-repeat center;
+    /*    background-size: cover;*/
+
+    height: 800px;
+    position: relative;
+    top: 50px;
+
+    background-color: aqua;
+}
+
+.splash-container img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.splash-text {
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    color: #fff;
+    line-height: 100px;
+    
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+
+
+footer {
+    background-color: #fff;
+    padding: 5px;
+    margin: 100px 0px 5px 0px;
+}
+
+
+/* Float Center Code */
+.footer-container {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.footer-container > .child {
+    position: relative;
+/*    left: 50%; */
+}
+
+.child div {
+    float: left;
+}
+
+.item {
+    text-align: center;
+    margin: 0px 20px
+}
+
+footer h1 {
+    font-size: 18px;
+    font-weight:bold;
+    /*    line-height: 22px;*/
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+footer h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+footer a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: underline
+}
+
+
+/*Barbara*/
+
+/*
+#navbar {
+    background-color: #ffffff;
+    display: flex;    
+}
+
+#navbar a {
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: right;
+	flex: 1;
+}
+
+#navbar a:hover {
+    color:gold;
+    background-color: cornflowerblue;  
+}
+.header {
+  background-image: url(../images/duomo.jpg)  no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+.header {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #ffffff;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+
+
+
+.footer {
+    background-color: #FFFFFF;
+    padding: 100px;
+	display:flex;
+}
+
+.footer h1 {
+    font-size: 50px;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+.footer h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.footer a {
+	font-size: 22px;
+	}
+*/
