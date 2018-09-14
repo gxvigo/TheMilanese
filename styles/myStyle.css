@@ -17,28 +17,25 @@ body {
     margin: 0px;
 }
 
+
+/* Header*/
+
 header {
     max-width: 1040px;
-    margin-left: auto;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .navbar {
-    display: flex;
-    height: 50px;
-    margin: 0px;
-    align-items: center;
-}
-
-
-/*
-.navbar li {
-    line-height: 50px;
-}
-*/
-
-.navbar li:not(:last-child):not(:first-child):not(.facebook__search) {
-    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr repeat(5, 100px);
+    grid-template-rows: 60px;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .navbar li a {
@@ -48,6 +45,11 @@ header {
 
 .navbar li a:hover {
     color: #444;
+}
+
+.menu-item-1 {
+/*    background-color: green;*/
+    grid-column-start: 3;
 }
 
 .current {
@@ -62,7 +64,35 @@ header {
     height: 50px;
 }
 
-.splash-text {
+
+/* page body */
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1040px 1fr;
+    grid-template-rows: 62px auto auto 150px;
+}
+
+.header-filler {
+    grid-column: 1 / -1;
+}
+
+.page-item {
+    grid-column-start: 2;
+}
+
+
+.hero {
+    grid-row-start: 2;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+/*
+.hero-text {
     position: absolute;
     top: 150px;
     left: 16px;
@@ -72,41 +102,39 @@ header {
     margin-top: 0;
     padding: 0px 15px;
     background-color: rgba(68, 68, 68, 0.51);
-    /*    margin-bottom: 80px;*/
+        margin-bottom: 80px;
     text-transform: uppercase;
 }
+*/
+
+.main-content {
+    grid-row-start: 3;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+
+/* footer*/
+
 
 .footer {
     display: grid;
-    /*  overflow: hidden;*/
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 250px 250px 250px 1fr;
     grid-column-gap: 5px;
 }
 
 .getting {
     grid-column-start: 2;
-    grid-column-end: 2;
 }
 
 .going {
-    grid-column-start: 3;
-    grid-column-end: 3;
 }
 
 .info {
-    grid-column-start: 4;
-    grid-column-end: 4;
 }
 
-.getting {
-    /*    margin-left: auto;*/
-}
-
-.getting {
-    /*    margin-right: 200px;*/
-}
-
-.info {}
 
 .item {
     text-align: center;
@@ -116,7 +144,7 @@ header {
 footer h1 {
     font-size: 18px;
     font-weight: bold;
-    /*    line-height: 22px;*/
+        line-height: 22px;
     margin: 0px 0px 10px 0px;
     text-transform: uppercase;
 }
