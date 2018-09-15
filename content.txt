@@ -14,31 +14,33 @@ Winding aroud by foot, bike or tram Milan is here to siscover.
 Milan is always busy. Concerts, plays, shows, events of all sorts, but there are some time of the year that you have to clear your agenda to fit this appointments in.
 
 *** Jan
+<li>1st - <strong>Classical concert</strong> - New yaer concert at Scala</li>
+<li>6th - <strong>Befana</strong> - Catholic celebratio in Duomo square</li>
 
 *** Feb
-Milan Fashion Week - Milan will step onto the international runaway.
+<li>15th - <strong>Carnevale</strong> - This is why Carnevale here is taken seriously, a ground for distinction that is celebrated in its full traditional glory. </li>
 
 *** Mar
-The Stramilano is an annual athletics event which bring more than 50.000 people walking and running around the city.
-The Fai Days  
+<li>24th - <strong>Stramilano</strong> - The Stramilano is an annual athletics event which bring more than 50.000 people walking and running around the city.</li>
+<li>24th - <strong>FAI Days</strong> - A national event whose aim is to arouse public awareness about the beauties of art, culture and Italian history.</li>
 
 *** Apr
-25th April - Liberation Day.
+<li>4th - <strong>Design Week </strong> - Inside and outside the Salone del Mobile events and exibishions around Milan for everybody.</li>
+<li>25th - <strong>Liberation Day</strong> - All together in Duomo square commemorating the end of Nazi occupation of the Country during World War II and the victory of the Resistance.</li>
 
-Design Week - Inside and outside the Salone del Mobile events and exibishions around Milan for everybody.
 
 *** Mag
-Orticola - Exhibition of Flower Market, unusual and rare plants and fruits in the historical garden and buildings.
+<li>10th - <strong>Orticola</strong> - Exhibition of Flower Market, unusual and rare plants and fruits in the historical garden and buildings.</li>
 
 *** Jun
-Le vie del cinema - Previews from Cannes Film Festival. 
 
 *** Lug
-
 
 *** Ago
 
 *** Sep
+<li>18th - <strong>Fashion week</strong> - Living la dolcevita</li>
+<li>19th - <strong>Le vie del cinema</strong> - Previews from Cannes Film Festival. </li>
 
 *** Oct
 

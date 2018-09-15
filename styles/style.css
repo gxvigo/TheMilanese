@@ -21,6 +21,10 @@ a {
     color: #00A79D;
 }
 
+strong {
+    font-weight: bold;
+}
+
 ul {
     padding: 0;
     list-style: none;
@@ -265,8 +269,11 @@ footer a {
 /*    background-color: cornflowerblue;*/
 }
 
-.agenda-item {
-    
+.agenda-item {}
+
+.agenda-content li {
+    padding: 0px 20px 5px 20px;
+
 }
 
 .agenda-item-odd {
@@ -292,18 +299,18 @@ footer a {
     justify-content: right;
 }
 
-div.months:nth-child(4n+1) {
+.y1{
      background-color: #FFD863;   
 }
 
-div.months:nth-child(4n+2) {
+.y2 {
      background-color: #CC9E12;   
 }
 
-div.months:nth-child(4n+3) {
+.b1 {
      background-color: #4CFFF4;   
 }
 
-div.months:nth-child(4n+4) {
+.b2 {
      background-color: #267F7A;   
 }
