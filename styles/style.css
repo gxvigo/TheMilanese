@@ -169,6 +169,12 @@ header {
     font-size: 1.3em;
 }
 
+.round-small {
+    width: 80px;
+    height: 80px;
+    font-size: 1em;
+}
+
 
 /* footer*/
 
@@ -313,4 +319,38 @@ footer a {
 
 .b2 {
      background-color: #267F7A;   
+}
+
+
+/* style page*/
+
+.style {
+    margin-top: 50px
+}
+
+.style-places {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}
+
+.style-place-odd {
+    display: grid;
+    grid-template-columns: 33% 5px auto auto;
+    grid-column-gap: 10px;
+}
+
+.style-place-even {
+    display: grid;
+    grid-template-columns: auto auto 5px 33%;
+    grid-column-gap: 10px;
+}
+
+.style-place-odd ul, .style-place-even ul {
+    align-self: center;
+}
+
+.vertial-separator {
+    content: none;
+    border-left: 4px solid #ffc517;
 }
