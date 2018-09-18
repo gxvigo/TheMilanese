@@ -229,7 +229,7 @@ footer a {
 /* calendar */
 
 .calendar {
-    margin-top: 20px;
+    margin: 40px 0px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto auto;
@@ -275,7 +275,9 @@ footer a {
 /*    background-color: cornflowerblue;*/
 }
 
-.agenda-item {}
+.agenda-item {
+    padding: 50px;
+}
 
 .agenda-content li {
     padding: 0px 20px 5px 20px;
