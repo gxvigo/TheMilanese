@@ -18,7 +18,7 @@ mono:    #267F7A
 
 a {
     text-decoration: none;
-    color: #00A79D;
+    color: #333;
 }
 
 strong {
@@ -31,10 +31,10 @@ ul {
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
     background: #fff;
     margin: 0px;
-    color: #00A79D;
+    color: #333;
 }
 
 h2 {
@@ -101,6 +101,10 @@ header {
     grid-row-gap: 5px;
 }
 
+.page-wrapper img {
+    margin: 20px 0px;
+}
+
 .header-filler {
     /* to fill the gap of the fixed header*/
     grid-column: 1 / -1;
@@ -127,10 +131,14 @@ header {
 }
 
 .main-content h2 {
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px 100px;
     line-height: 1.4em;
 }
+
+.main-content h2.center{
+    text-align: center;
+}
+    
 
 .main-content img {
     width: 100%;
@@ -179,9 +187,9 @@ header {
 /* footer*/
 
 .footer {
-    background-color: #00A79D;
+    background-color: #ffc517;
     margin-top: 20px;
-    padding-top: 15px;
+    padding: 15px 0px 25px 0px;
     display: grid;
     grid-template-columns: 1fr 250px 250px 250px 1fr;
     grid-column-gap: 5px;
@@ -201,7 +209,7 @@ header {
 }
 
 footer h1 {
-    color: white;
+    color: #333;
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
@@ -210,7 +218,7 @@ footer h1 {
 }
 
 footer h2 {
-    color: white;
+    color: #333;
     font-size: 14px;
     font-weight: 700;
     margin: 20px 0px 0px 0px;
@@ -218,7 +226,7 @@ footer h2 {
 }
 
 footer a {
-    color: white;
+    color: #333;
     font-size: 14px;
     text-decoration: underline
 }
