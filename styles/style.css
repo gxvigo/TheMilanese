@@ -361,13 +361,33 @@ footer a {
 
 .culture-gallery {
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
-}
-
-.ulture-gallery-item-single {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
     
 }
 
-.ulture-gallery-item-double {
-    
+.culture-gallery-item {
+    background: #fff;
+    border: 10px solid #fff;
 }
+
+.culture-gallery-item h2 {
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.culture-gallery-item p {
+    padding: 10px;
+    text-align: left;
+}
+
+.culture-gallery-item.double {
+    grid-column: span 2;
+}
+
+.culture-gallery img {
+    height: 190px
+}
+
