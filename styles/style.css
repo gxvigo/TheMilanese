@@ -76,7 +76,8 @@ header {
 
 .navbar li a {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .navbar li a:hover {
@@ -321,7 +322,7 @@ footer a {
 }
 
 
-/* style page*/
+/* ** style page*/
 
 .style {
     margin-top: 50px
@@ -353,4 +354,20 @@ footer a {
 .vertial-separator {
     content: none;
     border-left: 4px solid #ffc517;
+}
+
+
+/* ** culture page*/
+
+.culture-gallery {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+}
+
+.ulture-gallery-item-single {
+    
+}
+
+.ulture-gallery-item-double {
+    
 }
