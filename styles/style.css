@@ -30,15 +30,63 @@ ul {
 }
 
 body {
+/*    margin: 0;*/
     font-family: 'Roboto', sans-serif;
-    background: #f6f6f6
-        ;
+    background: #f6f6f6;
     margin: 0px;
     color: #333;
 }
 
 h2 {
     font-size: 20px;
+}
+
+/* Sticky social media bar*/
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  color: #ffc517
+}
+
+.facebook {
+/* border: 3px solid black;*/
+  background: #ffc517;
+  color: black;
+}
+
+.twitter {
+/* border: 3px solid black;*/
+  background: #ffc517;
+  color: black;
+}
+
+.instagram {
+/* border: 3px solid black;*/
+  background: #ffc517;
+  color: black;
+}
+
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
 }
 
 
@@ -144,7 +192,7 @@ header {
 }
 
 .main-content h2 {
-    padding: 100px 100px 40px 100px ;
+    padding: 80px 100px 35px 100px ;
     line-height: 1.4em;
 }
 
@@ -220,7 +268,7 @@ header {
     margin-top: 20px;
     padding: 15px 0px 25px 0px;
     display: grid;
-    grid-template-columns: 1fr 250px 250px 250px 1fr;
+    grid-template-columns: 1fr 230px 230px 230px 230px 1fr;
     grid-column-gap: 5px;
 }
 
@@ -231,6 +279,10 @@ header {
 .going {}
 
 .info {}
+
+.contacts {
+    
+}
 
 .item {
     text-align: center;
@@ -266,7 +318,7 @@ footer a {
 .page-wrapper {
     display: grid;
     grid-template-columns: 1fr 1040px 1fr;
-    grid-template-rows: 62px auto auto;
+    grid-template-rows: 62px 369px auto;
     /*    grid-row-gap: 5px;*/
 }
 
@@ -388,6 +440,6 @@ footer a {
 }
 
 .culture-gallery img {
-    height: 190px
+    height: 280px
 }
 
