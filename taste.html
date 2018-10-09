@@ -7,17 +7,17 @@
     <!-- add a description of your web page -->
     <meta name="description" content="Information about Milan">
     <!-- add keywords for search engines, seperating key words with commas -->
-    <meta name="keywords" content="Milan turism visit">
+    <meta name="keywords" content="Milan turism visit ">
     <!-- add the author of the page -->
     <meta name="author" content="Barbara Barlocco">
     <!-- add a title for the page -->
     <title>Giro Milano</title>
-    <link rel="icon" href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500i" rel="stylesheet">
     <!-- reset.css removes CSS added by web browsers, from: http://meyerweb.com/eric/tools/css/reset/ -->
     <!-- icons   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/reset.css" rel="stylesheet" type="text/css" />
     <!-- custom css styles -->
     <link href="./styles/style.css" rel="stylesheet" type="text/css"> </head>
 
@@ -43,26 +43,24 @@
     </header>
     <div class="page-wrapper">
         <section class="page-item header-filler"></section>
-        <section class="page-item hero"> <img src="./images/taste_hero.png" alt="Duomo Milano">
-            <!--            <div class="hero-text">Welcome to Milan</div>-->
+        <section class="page-item hero"> <img src="./images/taste_hero.png" alt="Small pastries">
         </section>
         <section class="page-item main-content">
 
-            <h2>Shopping in Milan is fun. The city is an icon of style and there is always something for everyone.
-                <br>
-                Scroll the page for the list or click in the area you are interested in.
-            </h2>
+            <h2 class="center">In Milan there is the cult of l'aperitivo, that could be similar to the American Happy Hour, but it's much more. It's a way to live the city.
+            <br>
+            <br>Scroll the page for the list or click in the area you are interested in for a drink or a nibble.</h2>   
 
             <section class="map_milan">
-                <img src="./images/map.png" width="100%" height="100%" alt="Milan map">
+                <img src="./images/map.png" width="100%" height="100%" alt="Milan map" usemap="#map_milan">
 
-                <map name="milanmap">
-                    <area shape="circle" coords="614,103,79" alt="Porta Nuova" href="center.html">
-                    <area shape="circle" coords="437,273,92" alt="Cadorna" href="center.html">
-                    <area shape="circle" coords="587,237,53" alt="Brera" href="center.html">
-                    <area shape="circle" coords="775,248,89" alt="Porta Venezia" href="center.html">
-                    <area shape="circle" coords="605,343,63" alt="Duomo" href="center.html">
-                    <area shape="circle" coords="505,455,87" alt="Porta Ticinese" href="center.html">
+                <map name="map_milan">
+                    <area shape="circle" coords="614,103,79" alt="Porta Nuova" href="#porta-nuova">
+                    <area shape="circle" coords="437,273,92" alt="Cadorna" href="#cadorna">
+                    <area shape="circle" coords="587,237,53" alt="Brera" href="#brera">
+                    <area shape="circle" coords="775,248,89" alt="Porta Venezia" href="#porta-venezia">
+                    <area shape="circle" coords="605,343,63" alt="Duomo" href="#duomo">
+                    <area shape="circle" coords="505,455,87" alt="Porta Ticinese" href="#porta-ticinese">
                 </map>
 
             </section>
@@ -70,7 +68,7 @@
             <section class="style">
                 <ul class="style-places">
                     <li class="style-place-odd">
-                        <img src="./images/style_duomo.png" alt="Log La Rinascente">
+                        <img src="./images/taste_duomo.png" alt="Children eating panzerotti">
                         <div class="vertial-separator"></div>
                         <div class="horizontal-separator"></div>
                         <ul class="agenda-content">

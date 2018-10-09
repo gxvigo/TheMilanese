@@ -1,0 +1,16 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title stroke="#333333">Layer 1</title>
+  <path stroke="#333333" id="svg_2" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m216.84515,126l0,-68.279006c0,-2.51666 -0.223007,-3.338375 -2.575144,-3.338375l-125.408563,0c-2.350963,0 -5.820482,0.821715 -5.820482,3.338375l0,68.279006"/>
+  <path stroke="#333333" id="svg_4" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m200.324364,131.341658l-102.274914,0c-18.987738,0 -36.309187,14.372703 -36.309187,33.927967l0,50.988011c0,2.346444 3.776165,5.286821 6.054375,5.286821l162.782264,0c2.279348,0 2.910604,-2.940377 2.910604,-5.286821l0,-50.988011c0,-19.555264 -14.177678,-33.927967 -33.163141,-33.927967z"/>
+  <path stroke="#333333" id="svg_5" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m233.015974,177.002417c0,-2.210323 -1.831922,-4.002417 -4.091368,-4.002417l-162.149927,0c-2.259446,0 -4.091368,1.792094 -4.091368,4.002417l0,37.23892c0,2.210323 1.831922,4.002417 4.091368,4.002417l162.149927,0c2.259446,0 4.091368,-1.792094 4.091368,-4.002417l0,-37.23892z"/>
+  <line id="svg_6" y2="253.161831" y1="217.161831" x2="61.740264" x1="61.740264" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#333333" fill="none"/>
+  <line id="svg_7" y2="251.747246" y1="215.747246" x2="233.48751" x1="233.48751" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#333333" fill="none"/>
+  <path stroke="#333333" id="svg_8" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m173.432486,124.490145c0,-11.926257 2.161798,-24.48552 2.161798,-24.48552c0,-2.116655 -1.452423,-4.042214 -3.242696,-4.042214c0,0 -10.087266,2.449746 -19.993822,2.449746c-9.906555,0 -21.072476,-2.607666 -21.072476,-2.607666c-1.792519,0 -3.243819,1.689343 -3.243819,3.807325c0,0 2.161798,12.113372 2.161798,24.891599"/>
+ </g>
+</svg>
