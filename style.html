@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,16 +7,16 @@
     <!-- add a description of your web page -->
     <meta name="description" content="Information about Milan">
     <!-- add keywords for search engines, seperating key words with commas -->
-    <meta name="keywords" content="Milan turism visit ">
+    <meta name="keywords" content="Milan, turism, visit ">
     <!-- add the author of the page -->
     <meta name="author" content="Barbara Barlocco">
     <!-- add a title for the page -->
     <title>Giro Milano</title>
     <link rel="icon" href="./images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500i" rel="stylesheet">
-    <!-- reset.css removes CSS added by web browsers, from: http://meyerweb.com/eric/tools/css/reset/ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500i" rel="stylesheet" type="text/css">
     <!-- icons   -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <!-- reset.css removes CSS added by web browsers, from: http://meyerweb.com/eric/tools/css/reset/ -->
     <link href="./styles/reset.css" rel="stylesheet" type="text/css" />
     <!-- custom css styles -->
     <link href="./styles/style.css" rel="stylesheet" type="text/css">
@@ -32,7 +32,7 @@
         <div class="header-side"></div>
         <ul class="navbar">
             <li class="logo">
-                <a href="index.html"><img src="images/logo.png"></a>
+                <a href="index.html"><img src="images/logo.png" alt="Giro Milano logo"></a>
             </li>
             <li class="menu-item-1"><a href="landmarks.html">Landmarks</a></li>
             <li class="menu-item-2"><a href="culture.html">Culture</a></li>
@@ -53,14 +53,14 @@
                 <br>Scroll the page for the list or click in the area you are interested in.</h2>
 
             <section class="map_milan">
-                <img src="./images/map.png" width="100%" height="100%" alt="Milan map" usemap="#map_milan">
+                <img src="./images/map.png" width="1040" height="562" alt="Milan map" usemap="#map_milan">
 
                 <map name="map_milan">
                     <area shape="circle" coords="614,103,79" alt="Porta Nuova" href="#porta-nuova">
                     <area shape="circle" coords="437,273,92" alt="Cadorna" href="#cadorna">
                     <area shape="circle" coords="587,237,53" alt="Brera" href="#brera">
                     <area shape="circle" coords="775,248,89" alt="Porta Venezia" href="#porta-venezia">
-                    <area shape="circle" coords="605,343,63" alt="Duomo" href="#duomo">
+                    <area shape="circle" coords="607,343,56" alt="Duomo" href="#duomo">
                     <area shape="circle" coords="505,455,87" alt="Porta Ticinese" href="#porta-ticinese">
                 </map>
 
@@ -71,31 +71,33 @@
                     <li id="duomo" class="style-place-odd">
                         <img src="./images/style_duomo.png" alt="La Rinascente logo">
                         <div class="vertical-separator"></div>
-
-                            <ul class="agenda-content">
-                                <li><strong>Duomo</strong></li>
-                                <li><br>
-                                    <medium>La Rinascente</medium>- a cluster of high-end stores with Italian and international brands in fashion, accessories, beauty, homeware, design and food. Including Kartell and Alessi.<a href="https://www.rinascente.it/" target="_blank"><i class="fa fa-external-link"></i></a>
-                                </li>
-                                <li><br>
-                                    <medium>Moronigomma</medium>- For design objects.<a href="https://moronigomma.it" target="_blank"><i class="fa fa-external-link"></i></a>
-                                </li>
-                                <li><br>Via La Spiga, Corso Napoleone and Galleria Vittorio Emanuele II - To windows watching and be inspired by the fashion.</li>
-                                <li><br>Corso Vittorio Emanuele II and via Torino - To buy the fashion.</li>
-                            </ul>
+                        <ul class="agenda-content">
+                            <li><h3>Duomo</h3></li>
+                            <li><br>
+                                <h4>La Rinascente</h4>- a cluster of high-end stores with Italian and international brands in fashion, accessories, beauty, homeware, design and food. Including Kartell and Alessi.<a href="https://www.rinascente.it/" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Moronigomma</h4>- For design objects.<a href="https://moronigomma.it" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Via La Spiga, Corso Napoleone and Galleria Vittorio Emanuele II</h4> - To windows watching and be inspired by the fashion.
+                            </li>
+                        </ul>
                     </li>
                     <li id="porta-venezia" class="style-place-even">
                         <ul class="agenda-content">
-                            <li>
-                                <h2>Porta Venezia</h2>
+                            <li><h3>Porta Venezia</h3></li>
+                            <li><br>
+                                <h4>Corso Buenos Aires </h4>- To buy clothes for all wallets.
                             </li>
-                            <li>Corso Buenos Aires - To buy closthing.</li>
-                            <li>
-                                Via Tadino - Where you could find the book or the comic strip that you always wanted.</li>
+                            <li><br>
+                                <h4>Muji</h4>- Not exactely the most Italian brand, but their objects has become part of thw Milanese life.<a href="http://www.muji.eu/" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Via Tadino</h4> - Where you could find the book or the comic strip that you always wanted.
+                            </li>
                         </ul>
                         <div class="vertical-separator"></div>
-
-
                         <img src="./images/style_portavenezia.png" alt="Bookshop">
                     </li>
                     <li id="brera" class="style-place-odd">
@@ -103,23 +105,31 @@
                         <div class="vertical-separator"></div>
 
                         <ul class="agenda-content">
-                            <li>
-                                <h2>Brera</h2>
+                            <li><h3>Brera</h3></li>
+                            <li><br>
+                                <h4>Via Brera </h4>- Many little shops and alternative brands.
                             </li>
-                            <li>Via Brera and surroundings - little shops and alternative brands.</li>
+                            <li><br>
+                                <h4>DMag </h4>- The outlet store of the D where you could find the clothes that you saw on pages of this fashion magazine.<a href="https://www.dmag.eu/en/NZ" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Via Fiori chiari</h4> - Where you could find some of the finest Galleries where you could buy a piece of art
+                            </li>
                         </ul>
                     </li>
                     <li id="porta-ticinese" class="style-place-even">
                         <ul class="agenda-content">
-                            <li>
-                                <h2>Porta Ticinese</h2>
+                            <li><h3>Porta Ticinese</h3></li>
+                            <li><br>
+                                <h4>Fiera di Senigallia </h4>- It has changed its initial location, but not the quality of this iconic flea market.<a href="http://www.fieradisinigaglia.it/" target="_blank"><i class="fa fa-external-link"></i></a>
                             </li>
-                            <li>Corso di Porta Ticinese and Navigli, to buy from little brands and vintage shops.</li>
-                            <li>Mercato di Papiniano On Saturdays. To buy for a bargain fashion brands.</li>
-                            <li>Corso di Porta Ticinese and Navigli, to buy from little brands and vintage shops.</li>
-                            <li><a href="http://www.fieradisinigaglia.it/"><strong>Fiera di Senigallia</strong></a> On Saturdays. Alternative flea market.</li>
+                            <li><br>
+                                <h4>Mercato di Via Papiniano</h4>- Every Saturdays you could find in this street market the fashion collection of the past year for a bargain.
+                            </li>
+                            <li><br>
+                                <h4>Corso di Porta Ticinese and Navigli</h4> - To shop from artisan and vintage shops.
+                            </li>
                         </ul>
-
                         <div class="vertical-separator"></div>
 
                         <img src="./images/style_portaticinese.png" alt="Floral market">
@@ -129,22 +139,28 @@
                         <div class="vertical-separator"></div>
 
                         <ul class="agenda-content">
-                            <li>
-                                <h2>Porta Nuova</h2>
+                            <li><h3>Porta Nuova</h3></li>
+                            <li><br>
+                                <h4>High Tech </h4>- Selection of products: functionality, aesthetics and reasonable price.<a href="https://www.cargomilano.it/" target="_blank"><i class="fa fa-external-link"></i></a>
                             </li>
-                            <li>Isola district - Full of little artigianals and vintage shops</li>
-
-                            <li><a href="https://www.cargomilano.it/" target="_blank"><strong>High Tech</strong></a> Selection of products: functionality, aesthetics and reasonable price.</li>
+                            <li><br>
+                                <h4>10 Corso Como</h4>- "10 Corso Como is in constant evolution, every day a new card is added to the marvelous mosaic we call life” quote Carla Sozzani. Fashion, art exibitions, food at its top.<a href="http://www.10corsocomo.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Isola district</h4> - Full of little artigianals and vintage shops.
+                            </li>
                         </ul>
                     </li>
                     <li id="cadorna" class="style-place-even">
                         <ul class="agenda-content">
-                            <li>
-                                <h2>Cadorna</h2>
+                            <li><h3>Cadorna</h3></li>
+                            <li><br>
+                                <h4>Corso Vercelli</h4> - It looks like shopping in Milan in 1800.
                             </li>
-                            <li>Corso Vercelli and surroundings - To shop in a elegant part of the city.</li>
+                            <li><br>
+                                <h4>Via Vincenzo Monti</h4> - To shop in a elegant part of the city.
+                            </li>
                         </ul>
-
                         <div class="vertical-separator"></div>
 
                         <img src="./images/style_cadorna.png" alt="People walking in a street">
@@ -157,24 +173,24 @@
     </div>
     <footer class="page-item">
         <ul class="footer">
-            <li class="item getting"> <img src="./images/icons/airplane.svg" height="50px" alt="">
+            <li class="item getting"> <img src="./images/icons/airplane.svg" height="50" alt="Airplane drawing">
                 <h1>Getting there</h1>
                 <h2>By plane</h2> <a href="http://www.milanomalpensa-airport.com/en">Milano Malpensa</a>
                 <br> <a href="http://www.milanolinate-airport.com/en">Milano Linate</a>
                 <h2>By train</h2> <a href="http://www.trenitalia.com/tcom-en">trenitalia.com</a>
                 <h2>By car</h2> <a href="http://www.autostrade.it/en/la-nostra-rete">autostrade.it</a>
             </li>
-            <li class="item staying"> <img src="./images/icons/single-bed.svg" height="50px" alt="">
+            <li class="item staying"> <img src="./images/icons/single-bed.svg" height="50" alt="Single bed drawing">
                 <h1>Where to stay</h1>
                 <a href="https://www.ostellobello.com/">ostellobello</a> <br>
                 <a href="https://www.hugmilano.com/">hugmilano</a>
             </li>
-            <li class="item going"> <img src="./images/icons/bike.svg" height="50px" alt="">
+            <li class="item going"> <img src="./images/icons/bike.svg" height="50" alt="bike drawing">
                 <h1>Going around</h1>
                 <h2>Public transport</h2> <a href="https://www.atm.it/en/Pages/default.aspx">atm.it</a>
                 <h2>Bike sharing</h2> <a href="https://www.bikemi.com/en/homepage.aspx">bikemi.com</a>
             </li>
-            <li class="item info"> <img src="./images/icons/information.svg" height="50px" alt="">
+            <li class="item info"> <img src="./images/icons/information.svg" height="50" alt="Information logo">
                 <h1>Information</h1> <a href="https://www.turismo.milano.it/wps/portal/tur/en">InfoMilano</a>
             </li>
         </ul>
