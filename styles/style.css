@@ -29,7 +29,6 @@ ul {
 }
 
 body {
-    /*    margin: 0;*/
     font-family: 'Roboto', sans-serif;
     background: #f6f6f6;
     margin: 0px;
@@ -45,8 +44,11 @@ h2 {
 .icon-bar {
     position: fixed;
     top: 50%;
+/*
+    Next 2 lines for Safari and IE but not validated by W3C css validator
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+*/
     transform: translateY(-50%);
 }
 
@@ -96,7 +98,6 @@ header {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 10px;
-
     display: grid;
     grid-template-columns: 1fr 1040px 1fr;
 }
@@ -307,10 +308,6 @@ footer a {
 
 /* ** style and taste page*/
 
-.style {
-    /*    margin-top: 50px*/
-}
-
 .style-places {
     display: grid;
     grid-template-columns: 1fr;
@@ -336,9 +333,8 @@ footer a {
 }
 
 #duomo h3, #porta-venezia h3, #porta-nuova h3, #brera h3, #cadorna h3, #porta-ticinese h3 {
-    font-size: 17px;
+    font-size: 18px;
 }
-
 
 
 
@@ -353,7 +349,7 @@ footer a {
 
 .culture-gallery-item {
     background: #fff;
-    border: 10px solid #fff;
+    border: 10px solid #fffffe;
 }
 
 .culture-gallery-item h2 {
