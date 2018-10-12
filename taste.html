@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,31 +7,31 @@
     <!-- add a description of your web page -->
     <meta name="description" content="Information about Milan">
     <!-- add keywords for search engines, seperating key words with commas -->
-    <meta name="keywords" content="Milan turism visit">
+    <meta name="keywords" content="Milan, turism, visit ">
     <!-- add the author of the page -->
     <meta name="author" content="Barbara Barlocco">
     <!-- add a title for the page -->
     <title>Giro Milano</title>
-    <link rel="icon" href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <!-- reset.css removes CSS added by web browsers, from: http://meyerweb.com/eric/tools/css/reset/ -->
+    <link rel="icon" href="./images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500i" rel="stylesheet" type="text/css">
     <!-- icons   -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <!-- reset.css removes CSS added by web browsers, from: http://meyerweb.com/eric/tools/css/reset/ -->
+    <link href="./styles/reset.css" rel="stylesheet" type="text/css" />
     <!-- custom css styles -->
-    <link href="./styles/style.css" rel="stylesheet" type="text/css"> </head>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
+</head>
 
 <body>
-   
+
     <!-- sticky social media bar   -->
     <div class="icon-bar"> <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> </div>
 
-   
     <header>
         <div class="header-side"></div>
         <ul class="navbar">
             <li class="logo">
-                <a href="index.html"><img src="images/logo.png"></a>
+                <a href="index.html"><img src="images/logo.png" alt="Giro Milano logo"></a>
             </li>
             <li class="menu-item-1"><a href="landmarks.html">Landmarks</a></li>
             <li class="menu-item-2"><a href="culture.html">Culture</a></li>
@@ -42,139 +42,169 @@
         <div class="header-side"></div>
     </header>
     <div class="page-wrapper">
-        <section class="page-item header-filler"></section>
-        <section class="page-item hero"> <img src="./images/taste_hero.png" alt="Duomo Milano">
-            <!--            <div class="hero-text">Welcome to Milan</div>-->
-        </section>
+        <div class="page-item header-filler"></div>
+        <div class="page-item hero"> <img src="./images/taste_hero.png" alt="Small pastries">
+        </div>
         <section class="page-item main-content">
 
-            <h2>Shopping in Milan is fun. The city is an icon of style and there is always something for everyone.
+            <h2 class="center">In Milan there is the cult of "l'aperitivo", that could be similar to the American Happy Hour. But here it's much more, it's a way to live the city.
                 <br>
-                Scroll the page for the list or click in the area you are interested in.
-            </h2>
+                <br>Scroll the page for the list or click in the area you are interested in for a drink or a nibble.</h2>
 
-            <section class="map_milan">
-                <img src="./images/map.png" width="100%" height="100%" alt="Milan map">
-
-                <map name="milanmap">
-                    <area shape="circle" coords="614,103,79" alt="Porta Nuova" href="center.html">
-                    <area shape="circle" coords="437,273,92" alt="Cadorna" href="center.html">
-                    <area shape="circle" coords="587,237,53" alt="Brera" href="center.html">
-                    <area shape="circle" coords="775,248,89" alt="Porta Venezia" href="center.html">
-                    <area shape="circle" coords="605,343,63" alt="Duomo" href="center.html">
-                    <area shape="circle" coords="505,455,87" alt="Porta Ticinese" href="center.html">
+            <div class="map_milan">
+                <img src="./images/map.png" width="1040" height="562" alt="Milan map" usemap="#map_milan">
+                <map name="map_milan">
+                    <area shape="circle" coords="614,103,79" alt="Porta Nuova" href="#porta-nuova">
+                    <area shape="circle" coords="437,273,92" alt="Cadorna" href="#cadorna">
+                    <area shape="circle" coords="587,237,53" alt="Brera" href="#brera">
+                    <area shape="circle" coords="775,248,89" alt="Porta Venezia" href="#porta-venezia">
+                    <area shape="circle" coords="607,343,56" alt="Duomo" href="#duomo">
+                    <area shape="circle" coords="505,455,87" alt="Porta Ticinese" href="#porta-ticinese">
                 </map>
-
-            </section>
+            </div>
 
             <section class="style">
                 <ul class="style-places">
-                    <li class="style-place-odd">
-                        <img src="./images/style_duomo.png" alt="Log La Rinascente">
-                        <div class="vertial-separator"></div>
-                        <div class="horizontal-separator"></div>
+                    <li id="duomo" class="style-place-odd">
+                        <img src="./images/taste_duomo.png" alt="Children eating panzerotti">
+                        <div class="vertical-separator"></div>
                         <ul class="agenda-content">
                             <li>
-                                <h2>Duomo</h2>
+                                <h3>Duomo</h3>
                             </li>
-                            <li><a href="https://www.rinascente.it/" target="_blank"><strong> La Rinascente</strong></a> is a collection of high-end stores with Italian and international brands in fashion, accessories, beauty, homeware, design and food. Including Kartell and Alessi.</li>
-                            <li><a href="https://moronigomma.it" target="_blank"><strong>Moronigomma</strong></a> For design objects.</li>
-                            <li>Via La Spiga, Corso Napoleone and Galleria Vittorio Emanuele II - To windows watching and be inspired by the fashion.</li>
-                            <li>Corso Vittorio Emanuele II and via Torino - To buy the fashion.</li>
+                            <li><br>
+                                <h4>Panzerotti di Luini </h4> The meeting point of all the students who cut school.<a href="http://www.luini.it/ " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Il Panino Giusto </h4>The michetta is the Milanese tipical bread. Ad here you can taste it at its best.<a href="https://www.paninogiusto.it" target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>La Rinascente terrace</h4>  Go to the 7th floor of this shopping mall and you can eat and drink in front of the Madonnina on top of the Duomo.<a href="https://www.rinascente.it/rinascente/en/restaurants/ " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="style-place-even">
+                    <li id="porta-venezia" class="style-place-even">
                         <ul class="agenda-content">
                             <li>
-                                <h2>Porta Venezia</h2>
+                                <h3>Porta Venezia</h3>
                             </li>
-                            <li>Corso Buenos Aires - To buy closthing.</li>
-                            <li>
-                                Via Tadino - Where you could find the book or the comic strip that you always wanted.</li>
+                            <li><br>
+                                <h4>Hotel Sheraton Diana </h4> For a very fashion aperitivo.<a href="https://www.marriott.com/hotels/travel/milsi-sheraton-diana-majestic-milan/  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Princi</h4> The classic baker.<a href="http://www.princi.it/ " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Bar Basso</h4>  Where the Negroni Sbagliato was born. 1 part (1 oz, 3cl) Campari, 1 part (1 oz, 3cl) Red Vermouth, 1 part (top) Sparkling Wine. Build in a double rocks glass with ice and garnish with a slice of orange.<a href="http://barbasso.com/main  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
                         </ul>
-                        <div class="vertial-separator"></div>
+                        <div class="vertical-separator"></div>
+                        <img src="./images/taste_portavenezia.png" alt="Hotel Sheraton Diana">
+                    </li>
+                    <li id="brera" class="style-place-odd">
+                        <img src="./images/taste_brera.png" alt="Restaurant outdoor tables">
+                        <div class="vertical-separator"></div>
+                        <ul class="agenda-content">
+                            <li>
+                                <h3>Brera</h3>
+                            </li>
+                            <li><br>
+                                <h4>La prosciutteria </h4> For nibbles with top quality ingredients.<a href="http://www.laprosciutteria.com/milano/  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Breara District </h4> Aperitivo or fortune teller. You want to forget the past or know the future? You can choose.
+                            </li>
+                            <li><br>
+                                <h4>Tartufotto</h4>  If you like truffles you have to dine here.<a href="http://tartufotto.it/  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="porta-ticinese" class="style-place-even">
+                        <ul class="agenda-content">
+                            <li>
+                                <h3>Porta Ticinese</h3>
+                            </li>
+                            <li><br>
+                                <h4>Trattoria Toscana </h4> To drink or to eat, enjoy its coutyard at the candles light.<a href="http://www.trattoriatoscana.net/  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Navigli </h4> Caffe', restaurants and bar, you can find what you need at all the hours of the day.
+                            </li>
+                            <li><br>
+                                <h4>Le Trottoir</h4>  Located in one on the historic bastion of Milan and now a place for cockatils and culture.<a href="http://www.letrottoir.it/ " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                        </ul>
 
-                        <div class="horizontal-separator"></div>
-                        <img src="./images/style_portavenezia.png" alt="Bookshop">
+                        <div class="vertical-separator"></div>
+                        <img src="./images/taste_portaticinese.png" alt="Navigli channels">
                     </li>
-                    <li class="style-place-odd">
-                        <img src="./images/style_brera.png" alt="Umbrellas that decorate a street">
-                        <div class="vertial-separator"></div>
-                        <div class="horizontal-separator"></div>
+                    <li id="porta-nuova" class="style-place-odd">
+                        <img src="./images/taste_portanuova.png" alt="Eataly shop">
+                        <div class="vertical-separator"></div>
                         <ul class="agenda-content">
                             <li>
-                                <h2>Brera</h2>
+                                <h3>Porta Nuova</h3>
                             </li>
-                            <li>Via Brera and surroundings - little shops and alternative brands.</li>
+                            <li><br>
+                                <h4>Eataly </h4> You can eat or shop high quality food from a selection of Slow Food members. <a href="https://www.eataly.net/it_en/shops/milan-smeraldo " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Frida </h4> bar and shop in the heart of the Isola district. <a href=" http://www.fridaisola.it/ " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
+                            <li><br>
+                                <h4>Palazzo del Cinema </h4>  Cinema, books, restaurant and more. A perfect date destination.<a href="http://www.spaziocinema.info/  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="style-place-even">
+                    <li id="cadorna" class="style-place-even">
                         <ul class="agenda-content">
                             <li>
-                                <h2>Porta Ticinese</h2>
+                                <h3>Cadorna</h3>
                             </li>
-                            <li>Corso di Porta Ticinese and Navigli, to buy from little brands and vintage shops.</li>
-                            <li>Mercato di Papiniano On Saturdays. To buy for a bargain fashion brands.</li>
-                            <li>Corso di Porta Ticinese and Navigli, to buy from little brands and vintage shops.</li>
-                            <li><a href="http://www.fieradisinigaglia.it/"><strong>Fiera di Senigallia</strong></a> On Saturdays. Alternative flea market.</li>
-                        </ul>
-                        
-                        <div class="vertial-separator"></div>
-                        <div class="horizontal-separator"></div> 
-                        <img src="./images/style_portaticinese.png" alt="Floral market">
-                    </li>
-                    <li class="style-place-odd">
-                        <img src="./images/style_portanuova.png" alt="Corso Como">
-                        <div class="vertial-separator"></div>
-                        <div class="horizontal-separator"></div>
-                        <ul class="agenda-content">
-                            <li>
-                                <h2>Porta Nuova</h2>
+                            <li><br>
+                                <h4>California Bakery </h4> the American traditional desserts made with Italian style. <a href="http://www.californiabakery.it " target="_blank"><i class="fa fa-external-link"></i></a>
                             </li>
-                            <li>Isola district - Full of little artigianals and vintage shops</li>
-                            
-                            <li><a href="https://www.cargomilano.it/" target="_blank"><strong>High Tech</strong></a> Selection of products: functionality, aesthetics and reasonable price.</li>
-                        </ul>
-                    </li>
-                    <li class="style-place-even">
-                        <ul class="agenda-content">
-                            <li>
-                                <h2>Cadorna</h2>
+                            <li><br>
+                                <h4>Bar Magenta </h4> Great atmosphere for a coffe or an aperitivo. <a href="barmagenta.it/ " target="_blank"><i class="fa fa-external-link"></i></a>
                             </li>
-                            <li>Corso Vercelli and surroundings - To shop in a elegant part of the city.</li>
+                            <li><br>
+                                <h4>Knam </h4> Opened in 1992 from an idea of Ernst Knam and Gualtiero Marchesi this is place to go if you are a chocolate lover.<a href="http://www.eknam.com  " target="_blank"><i class="fa fa-external-link"></i></a>
+                            </li>
                         </ul>
-                        
-                        <div class="vertial-separator"></div>
-                        <div class="horizontal-separator"></div>
-                        <img src="./images/style_cadorna.png" alt="People walking in a street">
+
+                        <div class="vertical-separator"></div>
+                        <img src="./images/taste_cadorna.png" alt="Bar Magenta">
                     </li>
                 </ul>
-
             </section>
-
         </section>
     </div>
+    
     <footer class="page-item">
         <ul class="footer">
-            <li class="item getting"> <img src="./images/icons/airplane.svg" height="50px" alt="">
+            <li class="item getting"> <img src="./images/icons/airplane.svg" height="50" alt="Airplane drawing">
                 <h1>Getting there</h1>
-                <h2>By plane</h2> <a href="http://www.milanomalpensa-airport.com/en">Milano Malpensa</a>
-                <br> <a href="http://www.milanolinate-airport.com/en">Milano Linate</a>
-                <h2>By train</h2> <a href="http://www.trenitalia.com/tcom-en">trenitalia.com</a>
-                <h2>By car</h2> <a href="http://www.autostrade.it/en/la-nostra-rete">autostrade.it</a> </li>
-            <li class="item staying"> <img src="./images/icons/single-bed.svg" height="50px" alt="">
+                <h2>By plane</h2> <a href="http://www.milanomalpensa-airport.com/en" target="_blank">Milano Malpensa</a>
+                <br> <a href="http://www.milanolinate-airport.com/en" target="_blank">Milano Linate</a>
+                <h2>By train</h2> <a href="http://www.trenitalia.com/tcom-en" target="_blank">trenitalia.com</a>
+                <h2>By car</h2> <a href="http://www.autostrade.it/en/la-nostra-rete"  target="_blank">autostrade.it</a>
+            </li>
+            <li class="item staying"> <img src="./images/icons/single-bed.svg" height="50" alt="Single bed drawing">
                 <h1>Where to stay</h1>
-                <a href="https://www.ostellobello.com/">ostellobello</a> <br>
-                <a href="https://www.hugmilano.com/">hugmilano</a> </li>
-            <li class="item going"> <img src="./images/icons/bike.svg" height="50px" alt="">
+                <a href="https://www.ostellobello.com/" target="_blank">ostellobello</a> <br>
+                <a href="https://www.hugmilano.com/" target="_blank">hugmilano</a>
+            </li>
+            <li class="item going"> <img src="./images/icons/bike.svg" height="50" alt="bike drawing">
                 <h1>Going around</h1>
-                <h2>Public transport</h2> <a href="https://www.atm.it/en/Pages/default.aspx">atm.it</a>
-                <h2>Bike sharing</h2> <a href="https://www.bikemi.com/en/homepage.aspx">bikemi.com</a> </li>
-            <li class="item info"> <img src="./images/icons/information.svg" height="50px" alt="">
-                <h1>Information</h1> <a href="https://www.turismo.milano.it/wps/portal/tur/en">InfoMilano</a>
+                <h2>Public transport</h2> <a href="https://www.atm.it/en/Pages/default.aspx" target="_blank">atm.it</a>
+                <h2>Bike sharing</h2> <a href="https://www.bikemi.com/en/homepage.aspx" target="_blank">bikemi.com</a>
+            </li>
+            <li class="item info"> <img src="./images/icons/information.svg" height="50" alt="Information logo">
+                <h1>Information</h1> <a href="https://www.turismo.milano.it/wps/portal/tur/en" target="_blank">InfoMilano</a>
             </li>
         </ul>
     </footer>
+    
 </body>
 
 </html>

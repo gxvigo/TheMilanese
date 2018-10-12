@@ -1,14 +1,8 @@
 /* Color schema
 
-- yellow
-primary: #ffc517
-mono:    #FFD863  
-mono:    #CC9E12   
-
--blue
-primary: #00A79D
-mono:    #4CFFF4   
-mono:    #267F7A 
+- yellow #ffc517
+- black #333333
+- grey #f6f6f6
 */
 
 * {
@@ -20,8 +14,13 @@ a {
     color: #333;
 }
 
-strong {
+h3 {
     font-weight: bold;
+}
+
+h4 {
+    font-weight: 500;
+    font-style: italic;
 }
 
 ul {
@@ -30,7 +29,6 @@ ul {
 }
 
 body {
-/*    margin: 0;*/
     font-family: 'Roboto', sans-serif;
     background: #f6f6f6;
     margin: 0px;
@@ -44,56 +42,55 @@ h2 {
 /* Sticky social media bar*/
 
 .icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    position: fixed;
+    top: 50%;
+/*
+    Next 2 lines for Safari and IE but not validated by W3C css validator
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+*/
+    transform: translateY(-50%);
 }
 
 .icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: black;
-  font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 20px;
 }
 
 .icon-bar a:hover {
-  background-color: #000;
-  color: #ffc517
+    background-color: #000;
+    color: #ffc517
 }
 
 .facebook {
-/* border: 3px solid black;*/
-  background: #ffc517;
-  color: black;
+    background: #ffc517;
+    color: black;
 }
 
 .twitter {
-/* border: 3px solid black;*/
-  background: #ffc517;
-  color: black;
+    background: #ffc517;
+    color: black;
 }
 
 .instagram {
-/* border: 3px solid black;*/
-  background: #ffc517;
-  color: black;
+    background: #ffc517;
+    color: black;
 }
 
 
 .content {
-  margin-left: 75px;
-  font-size: 30px;
+    margin-left: 75px;
+    font-size: 30px;
 }
 
 
 /* Header*/
 
 header {
-/*    max-width: 1040px;*/
     background-color: #fff;
     position: fixed;
     right: 0;
@@ -101,7 +98,6 @@ header {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 10px;
-    
     display: grid;
     grid-template-columns: 1fr 1040px 1fr;
 }
@@ -129,11 +125,10 @@ header {
 }
 
 .navbar li a:hover {
-    color: #444;
+    color: #ffc517;
 }
 
 .menu-item-1 {
-    /*    background-color: green;*/
     grid-column-start: 3;
 }
 
@@ -146,7 +141,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
 }
 
 
@@ -155,8 +150,7 @@ header {
 .page-index-wrapper {
     display: grid;
     grid-template-columns: 1fr 1040px 1fr;
-    grid-template-rows: 62px auto auto 192px;
-    /*    grid-row-gap: 5px;*/
+    grid-template-rows: 62px 369px auto 192px;
 }
 
 
@@ -168,12 +162,6 @@ header {
 .page-item {
     grid-column-start: 2;
 }
-
-/*
-.page-item.main-content{
-    margin-bottom: 50px;
-}
-*/
 
 .hero {
     grid-row-start: 2;
@@ -192,8 +180,9 @@ header {
 }
 
 .main-content h2 {
-    padding: 80px 100px 35px 100px ;
+    padding: 80px 50px 35px 50px;
     line-height: 1.4em;
+    text-align: justify;
 }
 
 .main-content h2.center {
@@ -205,42 +194,7 @@ header {
 }
 
 
-/* page body - inner menu*/
-
-.inner-menu {
-    display: grid;
-    grid-template-columns: 1fr repeat(5, 130px) 1fr;
-    grid-column-gap: 10px;
-}
-
-.inner-menu .item1 {
-    grid-column-start: 2;
-}
-
-.inner-menu .item4 {
-    background-color: #00A79D;
-}
-
-.round {
-    width: 130px;
-    height: 130px;
-    background-color: #ffc517;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
-    font-size: 1.3em;
-}
-
-.round-small {
-    width: 80px;
-    height: 80px;
-    font-size: 1em;
-}
+/* page body - bottom menu*/
 
 .page-menu-items {
     display: grid;
@@ -280,9 +234,7 @@ header {
 
 .info {}
 
-.contacts {
-    
-}
+.contacts {}
 
 .item {
     text-align: center;
@@ -319,16 +271,19 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1040px 1fr;
     grid-template-rows: 62px 369px auto;
-    /*    grid-row-gap: 5px;*/
+}
+
+.fa-external-link {
+    margin-left: 10px;
+}
+
+.fa-external-link:hover {
+    color: #ffc517;
 }
 
 
 
 /* ** events page */
-
-
-
-/* agenda */
 
 .agenda {
     margin: 20px 0px;
@@ -339,12 +294,6 @@ footer a {
     grid-row-gap: 30px;
 }
 
-
-.empty {
-    content: "";
-        background-color: cornflowerblue;
-}
-
 .agenda-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -353,75 +302,54 @@ footer a {
 }
 
 .agenda-content li {
-    padding: 0px 20px 5px 20px;
+    padding: 5px 20px 0px 20px;
 }
 
 
-.y1 {
-    background-color: #FFD863;
-}
-
-.y2 {
-    background-color: #CC9E12;
-}
-
-.b1 {
-    background-color: #4CFFF4;
-}
-
-.b2 {
-    background-color: #267F7A;
-}
-
-
-/* ** style page*/
-
-.style {
-    margin-top: 50px
-}
+/* ** style and taste page*/
 
 .style-places {
     display: grid;
     grid-template-columns: 1fr;
-    grid-row-gap: 20px;
 }
 
 .style-place-odd {
     display: grid;
-    grid-template-columns: 33% 5px auto auto;
-    grid-column-gap: 10px;
+    grid-template-columns: 33% 5px auto;
+    padding-top: 70px;
+    border-bottom: 5px solid #ffc517;
 }
 
 .style-place-even {
     display: grid;
-    grid-template-columns: auto auto 5px 33%;
-    grid-column-gap: 10px;
+    grid-template-columns: auto 5px 33%;
+    padding-top: 70px;
+    border-bottom: 5px solid #ffc517;
 }
 
-.style-place-odd ul,
-.style-place-even ul {
-    align-self: center;
-}
-
-.vertial-separator {
+.vertical-separator {
     content: none;
-    border-left: 4px solid #ffc517;
+    border-left: 5px solid #ffc517;
+}
+
+#duomo h3, #porta-venezia h3, #porta-nuova h3, #brera h3, #cadorna h3, #porta-ticinese h3 {
+    font-size: 18px;
 }
 
 
-/* ** culture page*/
+
+/* ** culture and landmarks page*/
 
 .culture-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
-    
 }
 
 .culture-gallery-item {
     background: #fff;
-    border: 10px solid #fff;
+    border: 10px solid #fffffe;
 }
 
 .culture-gallery-item h2 {
@@ -442,4 +370,3 @@ footer a {
 .culture-gallery img {
     height: 280px
 }
-
